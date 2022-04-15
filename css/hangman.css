@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gloria+Hallelujah&display=swap');
+body {
+  background-image: url("notebook.jpg");
+
+}
+
+.heading {
+  font-family: Caveat;
+  font-size: 60px;
+  text-align:left;
+  margin-top: 130px;
+  margin-left:100px;
+  color: black;
+}
+
+.navbar {
+  font-family: Gloria Hallelujah;
+  overflow: hidden;
+  background-color: indianred;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 99;
+}
+
+.navbar a {
+  top: 200px;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.man{
+  position: absolute;
+  top:240px;
+  left: 100px;
+  width: 25%;
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 20px;
+
+
+}
+
+.scoreboard{
+  position: fixed;
+  top:240px;
+  left: 700px;
+  background-color: orange;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 20px;
+  size: 200px;
+}
+
+.hint{
+  position: absolute;
+  top:500px;
+  left: 700px;
+  background-color: powderblue;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+.hang{
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.head{
+  position: absolute;
+  top: 100px;
+  left: 160px;
+  width:30px;
+
+}
+
+.rightarm{
+  position: absolute;
+  top: 189px;
+  left:215px;
+ 
+}
+
+.leftarm{
+  position: absolute;
+  top: 189px;
+  left:172px;
+
+}
+
+.leftleg{
+  position: absolute;
+  top: 280px;
+  left:180px;
+
+}
+
+.rightleg{
+  position: absolute;
+  top: 282px;
+  left:213px;
+
+}
+
+.body{
+  position:absolute;
+  top:185px;
+  left: 205px;
+
+}
+
+table {
+  position:fixed;
+  top: 33%;
+  left: 55%;
+  border: 0;
+  border-spacing: 0;
+  width: 35%;
+}
+
+th, td {
+  text-align: left;
+  padding: 14px;
+}
+
+tr:nth-child(odd) {
+	  background: cadetblue;
+	}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+  }
+
+.guess {
+    position:fixed;
+    top:41.3%;
+    left:38%;
+    background-color:bisque;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgba(0,0,255,0.3);
+}
+ .text {
+  color: black;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family:"Caveat";
+
+
+}
+
+.main {
+  position:fixed;
+  bottom:5.2%;
+  left:63%;
+  background-color: powderblue;
+  padding: 3px;
+  font-size: 15px;
+  width:400px;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  transform:scale(1.00);
+
+
+}
+

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body {
+
+  background-image: url("comp.jpg");
+  background-size:1400px 788px;
+}
+
+.navbar {
+  font-family: Gloria Hallelujah;
+  overflow: hidden;
+  background-color: indianred;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 99;
+}
+
+.navbar a {
+  top: 200px;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+h1{
+  font-family: Gloria Hallelujah;
+  text-align: center;
+  margin-top: 300px;
+  margin-left: 80px;
+}
+
+.login{
+
+}
